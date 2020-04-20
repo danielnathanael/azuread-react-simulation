@@ -1,0 +1,21 @@
+span{
+    display: inline-block;
+    text-align: left;
+}
+
+span:first-child{
+    width: 130px;
+}
+
+span:last-child{
+    vertical-align: sub; /*biar rapih aja*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+}
+
+td{
+    width: 400px;
+}
